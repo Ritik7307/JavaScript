@@ -26,3 +26,30 @@ let myObj = {
 const myFunction = function(){
 
 }
+
+
+
+
+
+
+
+
+
+
+
+// *********************************//
+
+// Memory
+
+// 2 types: Stack(Priitive)=> when it is used we only get the copy of variable used, Heap(Non-primitive)=> original value ka reference milta hai.
+
+
+let userOne = {
+    email:"user@gmail.com",
+    upi:"user@ybl"
+}
+
+let userTwo = userOne;
+userTwo.email = "raghav@gmail.com";
+console.log(userOne.email);
+console.log(userTwo.email);
