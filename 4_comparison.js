@@ -10,3 +10,5 @@ console.log("02">1);
 console.log(null >= 0); //true
 console.log(null > 0); //false
 console.log(null == 0); //false
+
+// undefined with all the three above operation gives false
